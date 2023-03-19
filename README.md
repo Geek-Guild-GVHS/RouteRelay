@@ -1,4 +1,4 @@
 # RouteRelay
 School Bus Tracking Software
 
-- Made by the boys
+- Made by The Bois
