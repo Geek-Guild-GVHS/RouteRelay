@@ -1,2 +1,4 @@
 # RouteRelay
-Bus Tracking System
+School Bus Tracking Software
+
+- Made by The Geek Guild
