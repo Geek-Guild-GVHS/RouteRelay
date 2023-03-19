@@ -1,4 +1,4 @@
 # RouteRelay
 School Bus Tracking Software
 
-- Made by The Bois
+- Made by The GVHS boys
