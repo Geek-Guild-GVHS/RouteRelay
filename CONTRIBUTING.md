@@ -34,8 +34,11 @@
 ## Creating a pull request
 1. Go to your forked repository and click on Contribute (which is right next to sync fork).
 2. Click on open pull request and describe the changes you have made in the description box.
+
 ![instructions_5](static/media/instructions/instructions_5.png)
+
 3. Now click on Create pull request.
+
 ![instructions_6](static/media/instructions/instructions_6.png)
 
 #### Now your request will be checked and merged if everything is okay
