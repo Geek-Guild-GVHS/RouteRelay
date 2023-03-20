@@ -22,3 +22,7 @@ School Bus Tracking Software
 # Contribution
 
 See [CONTRIBUTING.md](CONTRIBUTING.md)
+
+# Creating issues
+
+First make sure your issue is not already reported. If not then create an issue with appropriate tags.
