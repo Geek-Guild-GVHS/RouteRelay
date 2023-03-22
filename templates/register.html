@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Route Relay | Register</title>
+    <link rel="stylesheet" href="/static/css/config.css">
+    <link rel="stylesheet" href="/static/css/form.css">
+</head>
+<body>
+    <nav id="NavBar">
+        <a id="Title" href="/">Route Relay</a>
+    </nav>
+    <form action="/register" method="POST" id="RegisterForm">
+        <h1 id="FormTitle">Register</h1>
+        <div class="FormField">
+            <input type="text" class="Input" id="Name" name="Name" placeholder="Enter Name" required>
+        </div>
+        <div class="FormField">
+            <select class="Input" name="School" id="School" required>
+                <option value="">Select School</option>
+                <option value="GVHS">Green Valley High School</option>
+            </select>
+        </div>
+        <div class="FormField">
+            <input type="email" class="Input" id="Email" name="Email" placeholder="Enter Email" required>
+        </div>
+        <div class="FormField">
+            <input type="password" class="Input" id="Password" name="Password" placeholder="Create Password" required>
+        </div>
+        <input type="submit" id="Submit">
+    </form>
+</body>
+</html>
