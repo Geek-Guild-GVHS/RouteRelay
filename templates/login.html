@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Route Relay | Login</title>
+    <link rel="stylesheet" href="/static/css/login.css">
+</head>
+<body>
+    <nav id="NavBar">
+        <a id="Title" href="/">Route Relay</a>
+    </nav>
+    <form action="/" method="POST" id="LoginForm">
+        <h1 id="FormTitle">Login</h1>
+        <div class="FormField">
+            <input type="email" class="Input" id="Email" name="Email" placeholder="Enter Email">
+        </div>
+        <div class="FormField">
+            <input type="password" class="Input" id="Password" name="Password" placeholder="Enter Password">
+        </div>
+        {% if correctPassword == False %}
+            <div id="Warning">Incorrect Password</div>
+        {% endif %}
+        <input type="submit" id="Submit">
+    </form>
+</body>
+</html>
