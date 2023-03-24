@@ -1,0 +1,16 @@
+#Bus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25%;
+    height: 25%;
+    transform: translateX(-50%) translateY(-50%);
+    animation: Bus 1s ease-in-out 0s 1 forwards;
+}
+
+#Bus svg {
+    width: 25vw;
+}
