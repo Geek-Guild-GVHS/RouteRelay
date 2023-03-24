@@ -1,10 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "3b364cdce341d397b8fb49e9855341cccde854239202148b1edf5f44f62b1467"
+            "sha256": "f927c720929f3735755eba06a717a5dc4692af128a65c4903bd859fbd9b3e5ed"
         },
         "pipfile-spec": 6,
         "requires": {
+            "plotly": "5.13.0",
             "python_version": "3.9"
         },
         "sources": [
@@ -194,6 +195,14 @@
             "markers": "python_version >= '3.7'",
             "version": "==2.1.2"
         },
+        "plotly": {
+            "hashes": [
+                "sha256:90ee9a1fee0dda30e2830e129855081ea17bd1b06a553a62b62de15caff1a219",
+                "sha256:f776a5c664908450c6c1727f61e8e2e22798d9c6c69d37a9057735365084a2fa"
+            ],
+            "index": "pypi",
+            "version": "==5.13.1"
+        },
         "sqlalchemy": {
             "hashes": [
                 "sha256:013f4f330001e84a2b0ef1f2c9bd73169c79d582e54e1a144be1be1dbc911711",
@@ -240,6 +249,14 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==2.0.7"
+        },
+        "tenacity": {
+            "hashes": [
+                "sha256:2f277afb21b851637e8f52e6a613ff08734c347dc19ade928e519d7d2d8569b0",
+                "sha256:43af037822bd0029025877f3b2d97cc4d7bb0c2991000a3d59d71517c5c969e0"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==8.2.2"
         },
         "typing-extensions": {
             "hashes": [

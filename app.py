@@ -1,6 +1,9 @@
 from flask import Flask, render_template, request, redirect
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
+import sys
+sys.path.append("src")
+from create_map import create_map;
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///example.db'
@@ -44,9 +47,10 @@ def register(name=None):
     return render_template("register.html", name=name)
 
 @app.route('/home')
-def home():
-    return "Login Successful"
+def home(name=None):
+    create_map(lats=["22.3"], lons=["73.08"], text=["Green Valley High School"])
+    return render_template("home.html", name=name)
 
 
 if __name__=="__main__":
-    app.run(debug=True, port=8000)
+    app.run(port=8000, host="0.0.0.0")
